@@ -19,12 +19,38 @@ let booleanisLoggedIn = Boolean(isLoggedIn)
 // "shubham" => true
 
 let someNumber = 33
-console.log(someNumber);
-console.log(typeof(someNumber));
+//console.log(someNumber);
+//console.log(typeof(someNumber));
 
 let  stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
- 
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+
+/*****************Operations**************************/
+
+// console.log("1"+2);  // 12
+// console.log(1 + "2");  //12
+// console.log("1"+2 +2); //122
+// console.log(1+2+"3");  //33
+
+let gameCounter = 100;
+gameCounter++;
+//console.log(gameCounter);
+//console.log(1+gameCounter);
+
+let x = 3;
+const y = x++;
+
+//console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+//console.log(`a:${a}, b:${b}`);
+
+
+
 
 
