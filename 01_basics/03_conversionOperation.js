@@ -50,6 +50,8 @@ const b = ++a;
 
 //console.log(`a:${a}, b:${b}`);
 
+//prefer mdn to recall and revise pre and post increement.
+
 
 
 
