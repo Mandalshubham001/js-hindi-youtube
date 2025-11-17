@@ -37,3 +37,32 @@ const myFunction = function(){
 
 console.log( typeof myFunction);   // function
 console.log( typeof heros);  // bject
+
+
+
+
+/******************************Memory************************/
+
+// stack (Primitive), Heap (Non-primitive)
+
+let myYoutubename = "hiteshdotcom"
+
+let anotherName = myYoutubename
+anotherName = "chaicode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+//.......................................................
+
+let userOne = {
+    name: "shubham",
+    upi : "8791@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.upi = "879185@ybl" 
+
+console.log(userOne.upi);
+console.log(userTwo.upi);
