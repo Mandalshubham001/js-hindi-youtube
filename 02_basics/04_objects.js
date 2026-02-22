@@ -66,6 +66,38 @@ console.log(tinderUser.hasOwnProperty('isLogedin'));
 
 // filal itna hi objects m , baki time k sath age sikhenge jb APIs padenge.
 
+//objects aage ka jo bcha tha.........
+
+//destructring.
+
+const course = {
+    courseName: "js in hindi",
+    price : 5678,
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : teacher} = course
+//console.log(courseInstructor);
+console.log(teacher);
+
+//json format .................
+
+// {
+//     "name":"shubham",
+//     "age" : 20,
+//     "login":false
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 
