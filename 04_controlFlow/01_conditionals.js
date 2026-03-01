@@ -45,7 +45,15 @@ const temp = 500
 const userloggedin = true
 const debitCard = true
 
-if (userloggedin && debitCard){
-    console.log("allow  to purchase the course.");
+// if (userloggedin && debitCard){
+//    // console.log("allow  to purchase the course.");
+    
+// }
+
+const loggedinGmail = true
+const loggeinGoogle = false
+
+if(loggedinGmail || loggeinGoogle){
+    console.log("user lopgged in");
     
 }
